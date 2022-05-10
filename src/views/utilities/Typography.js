@@ -10,7 +10,7 @@ import { gridSpacing } from 'store/constant';
 // ==============================|| TYPOGRAPHY ||============================== //
 
 const Typography = () => (
-    <MainCard title="Basic Typography" secondary={<SecondaryAction link="https://next.material-ui.com/system/typography/" />}>
+    <MainCard title="Basic Typography: Open Sans" secondary={<SecondaryAction link="https://next.material-ui.com/system/typography/" />}>
         <Grid container spacing={gridSpacing}>
             <Grid item xs={12} sm={6}>
                 <SubCard title="Heading">
@@ -107,13 +107,13 @@ const Typography = () => (
                                 variant="body2"
                                 color="primary"
                                 component={Link}
-                                href="https://berrydashboard.io"
+                                href="sustainablesquare.com"
                                 target="_blank"
                                 display="block"
                                 underline="hover"
                                 gutterBottom
                             >
-                                https://berrydashboard.io
+                                sustainablesquare.com
                             </MuiTypography>
                         </Grid>
                     </Grid>

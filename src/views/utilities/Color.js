@@ -60,162 +60,136 @@ const UIColor = () => (
     <MainCard title="Color Palette" secondary={<SecondaryAction link="https://next.material-ui.com/system/palette/" />}>
         <Grid container spacing={gridSpacing}>
             <Grid item xs={12}>
-                <SubCard title="Primary Color">
+                <SubCard title="Primary Colors">
                     <Grid container spacing={gridSpacing}>
                         <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox bgcolor="primary.light" data={{ label: 'Blue-50', color: '#E3F2FD' }} title="primary.light" dark />
+                            <ColorBox bgcolor="#53BC7D" data={{ label: 'ss-green-1', color: '#E3F2FD' }} />
                         </Grid>
                         <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox bgcolor="primary.200" data={{ label: 'Blue-200', color: '#90CAF9' }} title="primary[200]" dark />
-                        </Grid>
-                        <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox bgcolor="primary.main" data={{ label: 'Blue-500', color: '#2196F3' }} title="primary.main" />
-                        </Grid>
-                        <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox bgcolor="primary.dark" data={{ label: 'Blue-600', color: '#1E88E5' }} title="primary.dark" />
-                        </Grid>
-                        <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox bgcolor="primary.800" data={{ label: 'Blue-800', color: '#1565C0' }} title="primary[800]" />
+                            <ColorBox bgcolor="#3FA285" data={{ label: 'ss-green-2', color: '#3FA285' }} />
                         </Grid>
                     </Grid>
                 </SubCard>
             </Grid>
             <Grid item xs={12}>
-                <SubCard title="Secondary Color">
+                <SubCard title="Secondary Colors">
                     <Grid container spacing={gridSpacing}>
                         <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox
-                                bgcolor="secondary.light"
-                                data={{ label: 'DeepPurple-50', color: '#ede7f6' }}
-                                title="secondary.light"
-                                dark
-                            />
+                            <ColorBox bgcolor="#202F4F" data={{ label: 'space-cadet', color: '#202F4F' }} />
                         </Grid>
                         <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox
-                                bgcolor="secondary.200"
-                                data={{ label: 'DeepPurple-200', color: '#b39ddb' }}
-                                title="secondary[200]"
-                                dark
-                            />
-                        </Grid>
-                        <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox
-                                bgcolor="secondary.main"
-                                data={{ label: 'DeepPurple-500', color: '#673ab7' }}
-                                title="secondary.main"
-                            />
-                        </Grid>
-                        <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox
-                                bgcolor="secondary.dark"
-                                data={{ label: 'DeepPurple-600', color: '#5e35b1' }}
-                                title="secondary.dark"
-                            />
-                        </Grid>
-                        <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox bgcolor="secondary.800" data={{ label: 'DeepPurple-800', color: '#4527a0' }} title="secondary[800]" />
+                            <ColorBox bgcolor="#E9F6F7" data={{ label: 'alice-blue', color: '#E9F6F7' }} />
                         </Grid>
                     </Grid>
                 </SubCard>
             </Grid>
             <Grid item xs={12}>
-                <SubCard title="Success Color">
+                <SubCard title="Accent Colors">
                     <Grid container spacing={gridSpacing}>
                         <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox bgcolor="success.light" data={{ label: 'Green-A100', color: '#b9f6ca' }} title="success.light" dark />
+                            <ColorBox bgcolor="#48639C" data={{ label: 'queen-blue', color: '#48639C' }} />
                         </Grid>
                         <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox bgcolor="success.main" data={{ label: 'Green-A200', color: '#69f0ae' }} title="success[200]" />
+                            <ColorBox bgcolor="#DE888C" data={{ label: 'new-york-pink', color: '#DE888C' }} />
                         </Grid>
                         <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox bgcolor="success.main" data={{ label: 'Green-A400', color: '#69f0ae' }} title="success.main" />
+                            <ColorBox bgcolor="#DE6D72" data={{ label: 'dark-pink', color: '#DE6D72' }} />
                         </Grid>
                         <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox bgcolor="success.dark" data={{ label: 'Green-A700', color: '#00c853' }} title="success.dark" />
+                            <ColorBox bgcolor="#ECB871" data={{ label: 'burlywood', color: '#ECB871' }} />
+                        </Grid>
+                        <Grid item xs={12} sm={6} md={4} lg={2}>
+                            <ColorBox bgcolor="#EC9222" data={{ label: 'orange', color: '#EC9222' }} />
                         </Grid>
                     </Grid>
                 </SubCard>
             </Grid>
             <Grid item xs={12}>
-                <SubCard title="Orange Color">
+                <SubCard title="Soft Colors">
                     <Grid container spacing={gridSpacing}>
                         <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox
-                                bgcolor="orange.light"
-                                data={{ label: 'DeepOrange-50', color: '#fbe9e7' }}
-                                title="orange.light"
-                                dark
-                            />
+                            <ColorBox bgcolor="#BCE0C5" data={{ label: 'soft-green', color: '#BCE0C5' }} />
                         </Grid>
                         <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox bgcolor="orange.main" data={{ label: 'DeepOrange-200', color: '#ffab91' }} title="orange.main" />
+                            <ColorBox bgcolor="#9EAECF" data={{ label: 'soft-blue', color: '#9EAECF' }} />
                         </Grid>
                         <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox bgcolor="orange.dark" data={{ label: 'DeepOrange-800', color: '#d84315' }} title="orange.dark" />
+                            <ColorBox bgcolor="#E9B4B4" data={{ label: 'soft-pink', color: '#E9B4B4' }} />
+                        </Grid>
+                        <Grid item xs={12} sm={6} md={4} lg={2}>
+                            <ColorBox bgcolor="#FFE7C7" data={{ label: 'soft-yellow', color: '#FFE7C7' }} />
                         </Grid>
                     </Grid>
                 </SubCard>
             </Grid>
             <Grid item xs={12}>
-                <SubCard title="Error Color">
+                <SubCard title="Gray Colors">
                     <Grid container spacing={gridSpacing}>
                         <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox bgcolor="error.light" data={{ label: 'Red-50', color: '#ef9a9a' }} title="error.light" dark />
+                            <ColorBox bgcolor="#fffff" data={{ label: 'pure-white', color: '#ffffff' }} />
                         </Grid>
                         <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox bgcolor="error.main" data={{ label: 'Red-200', color: '#f44336' }} title="error.main" />
+                            <ColorBox bgcolor="#F3F6F9" data={{ label: 'gray-100', color: '#F3F6F9' }} />
                         </Grid>
                         <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox bgcolor="error.dark" data={{ label: 'Red-800', color: '#c62828' }} title="error.dark" />
+                            <ColorBox bgcolor="#DCE1E5" data={{ label: 'gray-200', color: '#DCE1E5' }} />
+                        </Grid>
+                        <Grid item xs={12} sm={6} md={4} lg={2}>
+                            <ColorBox bgcolor="#C5CDD4" data={{ label: 'gray-300', color: '#C5CDD4' }} />
+                        </Grid>
+                        <Grid item xs={12} sm={6} md={4} lg={2}>
+                            <ColorBox bgcolor="#666D73" data={{ label: 'gray-400', color: '#666D73' }} />
+                        </Grid>
+                        <Grid item xs={12} sm={6} md={4} lg={2}>
+                            <ColorBox bgcolor="#393F45" data={{ label: 'gray-500', color: '#393F45' }} />
                         </Grid>
                     </Grid>
                 </SubCard>
             </Grid>
             <Grid item xs={12}>
-                <SubCard title="Warning Color">
+                <SubCard title="Info Colors">
                     <Grid container spacing={gridSpacing}>
                         <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox bgcolor="warning.light" data={{ label: 'Amber-50', color: '#b9f6ca' }} title="warning.light" dark />
+                            <ColorBox bgcolor="#9EAECF" data={{ label: 'info-light', color: '#9EAECF' }} />
                         </Grid>
                         <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox bgcolor="warning.main" data={{ label: 'Amber-100', color: '#ffe57f' }} title="warning.main" dark />
-                        </Grid>
-                        <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox bgcolor="warning.dark" data={{ label: 'Amber-500', color: '#FFC107' }} title="warning.dark" />
+                            <ColorBox bgcolor="#48639C" data={{ label: 'info-dark', color: '#48639C' }} />
                         </Grid>
                     </Grid>
                 </SubCard>
             </Grid>
             <Grid item xs={12}>
-                <SubCard title="Grey Color">
+                <SubCard title="Success Colors">
                     <Grid container spacing={gridSpacing}>
                         <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox bgcolor="grey.50" data={{ label: 'Grey-50', color: '#fafafa' }} title="grey[50]" dark />
+                            <ColorBox bgcolor="#BCE0C5" data={{ label: 'success-light', color: '#BCE0C5' }} />
                         </Grid>
                         <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox bgcolor="grey.100" data={{ label: 'Grey-100', color: '#f5f5f5' }} title="grey[100]" dark />
+                            <ColorBox bgcolor="#3FA285" data={{ label: 'success-dark', color: '#3FA285' }} />
+                        </Grid>
+                    </Grid>
+                </SubCard>
+            </Grid>
+            <Grid item xs={12}>
+                <SubCard title="Error Colors">
+                    <Grid container spacing={gridSpacing}>
+                        <Grid item xs={12} sm={6} md={4} lg={2}>
+                            <ColorBox bgcolor="#E9B4B4" data={{ label: 'error-light', color: '#E9B4B4' }} />
                         </Grid>
                         <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox bgcolor="grey.200" data={{ label: 'Grey-200', color: '#eeeeee' }} title="grey[200]" dark />
+                            <ColorBox bgcolor="#DE6D72" data={{ label: 'error-light', color: '#DE6D72' }} />
+                        </Grid>
+                    </Grid>
+                </SubCard>
+            </Grid>
+            <Grid item xs={12}>
+                <SubCard title="Warning Colors">
+                    <Grid container spacing={gridSpacing}>
+                        <Grid item xs={12} sm={6} md={4} lg={2}>
+                            <ColorBox bgcolor="#FFE7C7" data={{ label: 'warning-light', color: '#FFE7C7' }} />
                         </Grid>
                         <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox bgcolor="grey.300" data={{ label: 'Grey-300', color: '#e0e0e0' }} title="grey[300]" dark />
-                        </Grid>
-                        <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox bgcolor="grey.500" data={{ label: 'Grey-500', color: '#9e9e9e' }} title="grey[500]" />
-                        </Grid>
-                        <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox bgcolor="grey.700" data={{ label: 'Grey-600', color: '#757575' }} title="grey[600]" />
-                        </Grid>
-                        <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox bgcolor="grey.700" data={{ label: 'Grey-700', color: '#616161' }} title="grey[700]" />
-                        </Grid>
-                        <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox bgcolor="grey.900" data={{ label: 'Grey-900', color: '#212121' }} title="grey[900]" />
-                        </Grid>
-                        <Grid item xs={12} sm={6} md={4} lg={2}>
-                            <ColorBox bgcolor="#fff" data={{ label: 'Pure White', color: '#ffffff' }} title="Pure White" dark />
+                            <ColorBox bgcolor="#EC9222" data={{ label: 'warning-dark', color: '#EC9222' }} />
                         </Grid>
                     </Grid>
                 </SubCard>

@@ -5,18 +5,21 @@
 
 export default function themeTypography(theme) {
     return {
-        fontFamily: theme?.customization?.fontFamily,
+        // fontFamily: theme?.customization?.fontFamily,
         h6: {
+            fontFamily: 'Open Sans',
             fontWeight: 500,
             color: theme.heading,
             fontSize: '0.75rem'
         },
         h5: {
+            fontFamily: 'Open Sans',
             fontSize: '0.875rem',
             color: theme.heading,
             fontWeight: 500
         },
         h4: {
+            fontFamily: 'Open Sans',
             fontSize: '1rem',
             color: theme.heading,
             fontWeight: 600
@@ -27,45 +30,55 @@ export default function themeTypography(theme) {
             fontWeight: 600
         },
         h2: {
+            fontFamily: 'Open Sans',
             fontSize: '1.5rem',
             color: theme.heading,
             fontWeight: 700
         },
         h1: {
+            fontFamily: 'Open Sans',
+            fontFamily: 'Open Sans',
             fontSize: '2.125rem',
             color: theme.heading,
             fontWeight: 700
         },
         subtitle1: {
+            fontFamily: 'Open Sans',
             fontSize: '0.875rem',
             fontWeight: 500,
             color: theme.textDark
         },
         subtitle2: {
+            fontFamily: 'Open Sans',
             fontSize: '0.75rem',
             fontWeight: 400,
             color: theme.darkTextSecondary
         },
         caption: {
+            fontFamily: 'Open Sans',
             fontSize: '0.75rem',
             color: theme.darkTextSecondary,
             fontWeight: 400
         },
         body1: {
+            fontFamily: 'Open Sans',
             fontSize: '0.875rem',
             fontWeight: 400,
             lineHeight: '1.334em'
         },
         body2: {
+            fontFamily: 'Open Sans',
             letterSpacing: '0em',
             fontWeight: 400,
             lineHeight: '1.5em',
             color: theme.darkTextPrimary
         },
         button: {
+            fontFamily: 'Open Sans',
             textTransform: 'capitalize'
         },
         customInput: {
+            fontFamily: 'Open Sans',
             marginTop: 1,
             marginBottom: 1,
             '& > label': {

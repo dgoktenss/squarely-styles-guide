@@ -16,6 +16,24 @@ export default function themePalette(theme) {
             200: theme.colors?.primary200,
             800: theme.colors?.primary800
         },
+        primaryss: {
+            ssgreen1: '#3FA285',
+            ssgreen2: '#3FA285',
+            space: '#3FA285',
+            baby: '#3FA285',
+            blue: '#3FA285',
+            pink: '#3FA285',
+            yellow: '#3FA285'
+        },
+        buttonss: {
+            primary: '#3FA285',
+            secondary: '#3FA285',
+            success: '#BCE0C5',
+            info: '#3FA285',
+            error: '#3FA285',
+            warning: '#3FA285',
+            contrastText: '#3FA285'
+        },
         secondary: {
             light: theme.colors?.secondaryLight,
             main: theme.colors?.secondaryMain,

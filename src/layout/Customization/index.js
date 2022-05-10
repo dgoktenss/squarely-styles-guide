@@ -91,10 +91,10 @@ const Customization = () => {
     return (
         <>
             {/* toggle button */}
-            <Tooltip title="Live Customize">
+            {/* <Tooltip title="Live Customize">
                 <Fab
                     component="div"
-                    onClick={handleToggle}
+                    // onClick={handleToggle}
                     size="medium"
                     variant="circular"
                     color="secondary"
@@ -110,13 +110,11 @@ const Customization = () => {
                         zIndex: theme.zIndex.speedDial
                     }}
                 >
-                    <AnimateButton type="rotate">
-                        <IconButton color="inherit" size="large" disableRipple>
-                            <IconSettings />
-                        </IconButton>
-                    </AnimateButton>
+                    <IconButton color="inherit" size="large" disableRipple>
+                        <IconSettings />
+                    </IconButton>
                 </Fab>
-            </Tooltip>
+            </Tooltip> */}
 
             <Drawer
                 anchor="right"
