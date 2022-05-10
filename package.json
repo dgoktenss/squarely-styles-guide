@@ -1,8 +1,6 @@
 {
     "name": "berry-material-react-free",
     "version": "3.0.1",
-    "private": false,
-    "homepage": "https://squarely-styles-guide.vercel.app",
     "dependencies": {
         "@emotion/cache": "^11.4.0",
         "@emotion/react": "^11.4.0",
